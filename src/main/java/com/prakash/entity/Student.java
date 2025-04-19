@@ -1,7 +1,5 @@
 package com.prakash.entity;
 
-import com.prakash.repository.StudentRepository;
-
 public class Student {
 
     private int id;

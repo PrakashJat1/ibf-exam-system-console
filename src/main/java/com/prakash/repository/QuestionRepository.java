@@ -1,7 +1,6 @@
 package com.prakash.repository;
 
 import com.prakash.entity.Question;
-import org.w3c.dom.ls.LSInput;
 
 import java.sql.*;
 import java.util.ArrayList;

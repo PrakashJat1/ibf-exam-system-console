@@ -3,15 +3,15 @@ package com.prakash.controller;
 import com.prakash.entity.Student;
 import com.prakash.service.StudentService;
 
-import java.sql.SQLException;
 import java.util.List;
 
 public class StudentController {
 
     StudentService studentService = new StudentService();
 
-
     public StudentController(){}
+
+    public StudentController(Student student){}
 
     public boolean updateStudentByEmail(String email,Student student){return studentService.updateStudentByEmail(email,student);}
 

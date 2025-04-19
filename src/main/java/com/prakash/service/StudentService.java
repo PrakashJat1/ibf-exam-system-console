@@ -3,7 +3,6 @@ package com.prakash.service;
 import com.prakash.entity.Student;
 import com.prakash.repository.StudentRepository;
 
-import java.sql.SQLException;
 import java.util.List;
 
 public class StudentService {
